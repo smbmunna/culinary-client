@@ -4,7 +4,7 @@ const AboutLeader = () => {
         <div>
             <div className='grid grid-cols-2 items-center gap-4'>
                 <div>
-                    <h1 className='font-bold text-3xl mb-2'>About Our Leader</h1>
+                    <h1 className='font-bold text-5xl mb-8'>About Our Leader</h1>
                     <p className='text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint corporis necessitatibus nemo dolore. Voluptatum repellendus maiores, ratione rerum dignissimos nam? Dicta dolorem magnam obcaecati qui quaerat beatae porro in sunt amet inventore ipsa quam nostrum vel quasi eum, molestias quae! Veritatis facere quaerat dolor sit cumque quidem omnis incidunt architecto error explicabo, qui facilis delectus temporibus modi nisi, cum accusamus.</p>
                     <ul className='mt-4 text-gray-500'>
                         <li>Filet mignon tri-tip pig meatloaf jerky</li>
