@@ -1,4 +1,5 @@
 import AboutLeader from "../AboutLeader/AboutLeader";
+import PopularClasses from "../PopularClasses/PopularClasses";
 import Welcome from "../Welcome/Welcome";
 
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Welcome/>
             <AboutLeader/>
+            <PopularClasses/>
         </div>
     );
 };
