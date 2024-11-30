@@ -16,6 +16,9 @@ const PopularClasses = () => {
                     classes.map(cls => <ClassCard cls={cls} key={cls.id} />)
                 }
             </div>
+            <div className=" grid justify-center">
+                <button className="btn btn-outline btn-secondary w-52">All Classes</button>
+            </div>
         </div>
     );
 };
