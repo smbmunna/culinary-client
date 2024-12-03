@@ -38,7 +38,7 @@ const Navbar = () => {
                        {listOptions}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">Culinary Institute</a>
+                <img src="https://i.ibb.co.com/cwfQgfD/Logo-1.png" alt="logo" className="w-24" />
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
