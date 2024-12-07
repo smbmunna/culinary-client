@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
@@ -5,6 +6,12 @@ import { MdEmail } from "react-icons/md";
 
 
 const Footer = () => {
+    const [courses, setCourses] = useState([]);
+    useEffect(() => {
+        fetch('classes.json')
+            .then(res => res.json())
+            .then(data => setCourses(data))
+    }, [])
     return (
         <footer className="relative mt-16" style={{
             backgroundImage: "url(" + "https://i.ibb.co.com/NF6TD07/Timer-Section-background.png" + ")",
@@ -14,10 +21,13 @@ const Footer = () => {
 
         }}>
             <div className="absolute inset-0 bg-black opacity-70"></div>
-            <div className="footer text-white p-10 relative " >
+            <div className="footer text-white p-10 relative max-w-screen-lg mx-auto grid grid-cols-4 gap-40 items-center" >
                 <div>
                     <img src="https://i.ibb.co.com/cwfQgfD/Logo-1.png" alt="logo" className="w-24" />
-                    <p className="w-64 mb-4">Our Cooking School features a long and proud history of more than 100 years. Founded at the end of the XIXth century.</p>
+                    <p className="w-56 mb-4">Our Cooking School features a long and proud history of more than 100 years. Founded at the end of the XIXth century.</p>
+
+                </div>
+                <div className="w-52">
                     <div className="flex items-center gap-2">
                         <div>
                             <FaMapMarkerAlt />
@@ -45,6 +55,12 @@ const Footer = () => {
                         </div>
 
                     </div>
+                </div>
+                <div>
+                    <h6 className="footer-title">Our Courses</h6>
+                    {
+                        courses.map(course => <a className="link link-hover" key={course.id}>{course.title}</a>)
+                    }
                 </div>
 
                 <nav>

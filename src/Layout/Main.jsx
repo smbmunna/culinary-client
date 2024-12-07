@@ -12,7 +12,7 @@ const Main = () => {
             <div  className='max-w-screen-lg mx-auto'>
                 <Outlet />
             </div>
-            <Footer />
+            <Footer/>
         </div>
     );
 };
