@@ -3,7 +3,7 @@
 const PartnerCard = ({image}) => {
     return (
         <div>
-            <div className="w-64 flex items-center justify-center h-64">
+            <div className="w-64 flex items-center justify-center h-64 card shadow-xl my-4">
                 <figure>
                     <img
                         src={image}

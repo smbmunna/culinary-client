@@ -1,22 +1,52 @@
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
+
+
 
 const Footer = () => {
     return (
-        <footer>
-            <div className="footer bg-black text-white p-10">
+        <footer className="relative mt-16" style={{
+            backgroundImage: "url(" + "https://i.ibb.co.com/NF6TD07/Timer-Section-background.png" + ")",
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+
+        }}>
+            <div className="absolute inset-0 bg-black opacity-70"></div>
+            <div className="footer text-white p-10 relative " >
                 <div>
                     <img src="https://i.ibb.co.com/cwfQgfD/Logo-1.png" alt="logo" className="w-24" />
-                    <p className="w-64">Our Cooking School features a long and proud history of more than 100 years. Founded at the end of the XIXth century.</p>
+                    <p className="w-64 mb-4">Our Cooking School features a long and proud history of more than 100 years. Founded at the end of the XIXth century.</p>
+                    <div className="flex items-center gap-2">
+                        <div>
+                            <FaMapMarkerAlt />
+                        </div>
+                        <div>
+                            <p>House 35 Road 11, Sector 04, Uttara, Dhaka</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="flex items-center gap-2 mb-2">
+                            <div>
+                                <FaPhone />
+                            </div>
+                            <div>
+                                <p>+880-1739104635</p>
+                            </div>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <div>
+                                <MdEmail />
+                            </div>
+                            <div>
+                                <p>smbmunna@gmail.com</p>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-                <div>
-                    <p className="text-lg">House 35 Road 11, Sector 04</p>
-                    <p className=" text-lg mb-4">Uttara, Dhaka</p>
-                </div>
-                <div>
-                    <p className="text-lg">Phone number:</p>
-                    <p className="mb-4">+880-1739104635</p>
-                    <p>Business Email: </p>
-                    <p className="text-lg">smbmunna@gmail.com</p>
-                </div>
+
                 <nav>
                     <h6 className="footer-title">Explore</h6>
                     <a className="link link-hover">About us</a>
