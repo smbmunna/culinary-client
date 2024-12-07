@@ -23,7 +23,7 @@ const Footer = () => {
             <div className="absolute inset-0 bg-black opacity-70"></div>
             <div className="footer text-white p-10 relative max-w-screen-lg mx-auto grid grid-cols-4 gap-40 items-center" >
                 <div>
-                    <img src="https://i.ibb.co.com/cwfQgfD/Logo-1.png" alt="logo" className="w-24" />
+                    <img src="https://i.ibb.co.com/L8DNcxJ/Logo-2.png" alt="logo" className="w-24" />
                     <p className="w-56 mb-4">Our Cooking School features a long and proud history of more than 100 years. Founded at the end of the XIXth century.</p>
 
                 </div>
