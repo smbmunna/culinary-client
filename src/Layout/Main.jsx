@@ -9,7 +9,7 @@ const Main = () => {
         <div>
             <Navbar />
             <Banner />
-            <div  className='max-w-screen-lg mx-auto'>
+            <div  className='mx-auto'>
                 <Outlet />
             </div>
             <Footer/>

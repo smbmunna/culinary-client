@@ -11,14 +11,16 @@ import Welcome from "../Welcome/Welcome";
 const Home = () => {
     return (
         <div>
-            <Welcome/>
-            <AboutLeader/>
-            <PromoVideo/>
-            <PopularClasses/>
-            <NextClass/>
-            <OurTeam/>
-            <Partners/>
-            <Location/>
+            <Welcome />
+            <div  className=" max-w-screen-lg mx-auto">
+                <AboutLeader />
+                <PromoVideo />
+                <PopularClasses />
+                <NextClass />
+                <OurTeam />
+                <Partners />
+                <Location />
+            </div>
         </div>
     );
 };
