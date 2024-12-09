@@ -10,7 +10,7 @@ const AboutLeader = () => {
                     <FaQuoteLeft size={40} />
 
                     <div className=" flex items-end">
-                        <h1 className='font-bold text-5xl mb-8 font-RobotoCondensed '>At Culinary Arts Academy, our students develop the creativity, initiative, and tenacity to be ready to innovative the world of culinary arts. </h1>
+                        <h1 className='font-bold text-5xl mb-8 font-RobotoCondensed '>At <span className="text-[#fe3f00]">Culinary Institute Dhaka</span>, our students develop the creativity, initiative, and tenacity to be ready to innovative the world of culinary arts. </h1>
                         <FaQuoteRight style={{ fontSize: '160px' }} />
                     </div>
                 </div>

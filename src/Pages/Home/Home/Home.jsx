@@ -13,15 +13,18 @@ const Home = () => {
         <div>
             <Welcome />
 
-            
-                <AboutLeader />
-                {/* <PromoVideo /> */}
-                <div className=" max-w-screen-lg mx-auto">
+
+            <AboutLeader />
+            {/* <PromoVideo /> */}
+            <div className=" max-w-screen-lg mx-auto">
                 <PopularClasses />
-                <NextClass />
-                <OurTeam />
-                <Partners />
-                <Location />
+
+            </div>
+            <NextClass />
+            <div className=" max-w-screen-lg mx-auto">
+            <OurTeam />
+            <Partners />
+            <Location />
             </div>
         </div>
     );

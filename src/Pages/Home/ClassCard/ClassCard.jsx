@@ -12,7 +12,7 @@ const ClassCard = ({ cls }) => {
                 <h2 className="card-title mb-2">{title}</h2>
                 <p>{description}</p>
                 <div className="mt-2">
-                    <button className="btn btn-outline btn-error">Learn More</button>
+                    <button className="bg-[#fe3f00] text-white px-8 py-2 text-lg hover:bg-black" >Learn More</button>
                 </div>
             </div>
         </div>
