@@ -6,7 +6,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        RobotoCondensed: "Roboto Condensed, sans-serif"
+      }
+    },
   },
   plugins: [
     require('daisyui'),

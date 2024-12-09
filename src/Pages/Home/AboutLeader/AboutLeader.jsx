@@ -1,19 +1,21 @@
-import leader from '../../../assets/Home/Leader.jpg'
+import { FaQuoteLeft } from "react-icons/fa";
+import { FaQuoteRight } from "react-icons/fa";
+
 const AboutLeader = () => {
+    const leaderImg = "https://i.ibb.co.com/PZLc5MQ/Founder.png";
     return (
-        <div>
-            <div className='grid grid-cols-2 items-center gap-4'>
-                <div>
-                    <h1 className='font-bold text-5xl mb-8'>About Our Leader</h1>
-                    <p className='text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint corporis necessitatibus nemo dolore. Voluptatum repellendus maiores, ratione rerum dignissimos nam? Dicta dolorem magnam obcaecati qui quaerat beatae porro in sunt amet inventore ipsa quam nostrum vel quasi eum, molestias quae! Veritatis facere quaerat dolor sit cumque quidem omnis incidunt architecto error explicabo, qui facilis delectus temporibus modi nisi, cum accusamus.</p>
-                    <ul className='mt-4 text-gray-500'>
-                        <li>Filet mignon tri-tip pig meatloaf jerky</li>
-                        <li>Frankfurter turkey pork belly brisket kevin</li>
-                        <li>Pork loin landjaeger t-bone shoulde</li>
-                    </ul>
+        <div className="  bg-black ">
+            <div className='grid grid-cols-3 items-center gap-4 text-white max-w-screen-lg mx-auto'>
+                <div className=" col-span-2">
+                    <FaQuoteLeft size={40} />
+
+                    <div className=" flex items-end">
+                        <h1 className='font-bold text-5xl mb-8 font-RobotoCondensed '>At Culinary Arts Academy, our students develop the creativity, initiative, and tenacity to be ready to innovative the world of culinary arts. </h1>
+                        <FaQuoteRight style={{ fontSize: '160px' }} />
+                    </div>
                 </div>
                 <div>
-                    <img src={leader} alt="leader-img" />
+                    <img src={leaderImg} alt="leader-img" />
                 </div>
             </div>
         </div>

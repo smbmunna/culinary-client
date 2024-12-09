@@ -17,7 +17,7 @@ const PopularClasses = () => {
                 }
             </div>
             <div className=" grid justify-center">
-                <button className="btn btn-outline btn-secondary w-52">All Classes</button>
+                <button className="btn btn-outline w-52">All Classes</button>
             </div>
         </div>
     );

@@ -12,9 +12,11 @@ const Home = () => {
     return (
         <div>
             <Welcome />
-            <div  className=" max-w-screen-lg mx-auto">
+
+            
                 <AboutLeader />
-                <PromoVideo />
+                {/* <PromoVideo /> */}
+                <div className=" max-w-screen-lg mx-auto">
                 <PopularClasses />
                 <NextClass />
                 <OurTeam />
