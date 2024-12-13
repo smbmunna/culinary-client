@@ -10,7 +10,7 @@ import Welcome from "../Welcome/Welcome";
 
 const Home = () => {
     return (
-        <div>
+        <div >
             <Welcome />
 
 
@@ -21,11 +21,13 @@ const Home = () => {
 
             </div>
             <NextClass />
-            <div className=" max-w-screen-lg mx-auto">
-            <OurTeam />
-            <Partners />
-            <Location />
+            <div className=" max-w-screen-lg mx-auto " >
+
+                <OurTeam />
+
             </div>
+            <Location />
+            <Partners />
         </div>
     );
 };

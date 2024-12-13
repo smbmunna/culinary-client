@@ -14,7 +14,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const OurTeam = () => {
     return (
-        <div className='mb-16'>
+        <div className='mb-16' >
             <h1 className="font-bold text-5xl mb-8 text-center pt-16 font-RobotoCondensed">Learn From the Best</h1>
             <Swiper
                 spaceBetween={30}
@@ -23,11 +23,11 @@ const OurTeam = () => {
                     delay: 2500,
                     disableOnInteraction: false,
                 }}
-                pagination={{
-                    clickable: true,
-                }}
-                navigation={true}
-                modules={[Autoplay, Pagination, Navigation]}
+                // pagination={{
+                //    // clickable: true,
+                // }}
+                //navigation={true}
+                modules={[Autoplay]}
                 className="mySwiper"
             >
                 <SwiperSlide>
@@ -39,7 +39,7 @@ const OurTeam = () => {
                         </figure>
                         <div className="card-body ">
                             <h2 className="font-bold text-5xl mb-8 text-center pt-16 font-RobotoCondensed">John Doe</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, dolore velit minima eligendi optio iusto, tempora ipsum ad quos, atque consectetur perspiciatis. Expedita, adipisci. Vero voluptas itaque mollitia, tempora, id culpa iure temporibus laborum, laudantium nemo quia sapiente? Iure excepturi tenetur quam, ipsa itaque fugiat maxime voluptates tempore, quidem non repudiandae deserunt facere veritatis quos asperiores, id nemo dignissimos quia.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio harum non incidunt vitae dolorum rerum earum omnis temporibus tenetur deleniti at, accusamus iure placeat nostrum atque culpa nihil quas quod.</p>
                             <div className="card-actions justify-end">
 
                             </div>
@@ -55,7 +55,7 @@ const OurTeam = () => {
                         </figure>
                         <div className="card-body">
                             <h2 className="font-bold text-5xl mb-8 text-center pt-16">Emma Jones</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, dolore velit minima eligendi optio iusto, tempora ipsum ad quos, atque consectetur perspiciatis. Expedita, adipisci. Vero voluptas itaque mollitia, tempora, id culpa iure temporibus laborum, laudantium nemo quia sapiente? Iure excepturi tenetur quam, ipsa itaque fugiat maxime voluptates tempore, quidem non repudiandae deserunt facere veritatis quos asperiores, id nemo dignissimos quia.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio harum non incidunt vitae dolorum rerum earum omnis temporibus tenetur deleniti at, accusamus iure placeat nostrum atque culpa nihil quas quod.</p>
                             <div className="card-actions justify-end">
 
                             </div>
@@ -71,7 +71,7 @@ const OurTeam = () => {
                         </figure>
                         <div className="card-body">
                             <h2 className="font-bold text-5xl mb-8 text-center pt-16">Henry Potter</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, dolore velit minima eligendi optio iusto, tempora ipsum ad quos, atque consectetur perspiciatis. Expedita, adipisci. Vero voluptas itaque mollitia, tempora, id culpa iure temporibus laborum, laudantium nemo quia sapiente? Iure excepturi tenetur quam, ipsa itaque fugiat maxime voluptates tempore, quidem non repudiandae deserunt facere veritatis quos asperiores, id nemo dignissimos quia.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio harum non incidunt vitae dolorum rerum earum omnis temporibus tenetur deleniti at, accusamus iure placeat nostrum atque culpa nihil quas quod.</p>
                             <div className="card-actions justify-end">
 
                             </div>
