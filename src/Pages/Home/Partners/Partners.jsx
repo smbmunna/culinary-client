@@ -29,7 +29,7 @@ const Partners = () => {
 
     return (
         <div>
-            <h1 className="font-bold text-5xl mb-8 text-center pt-16">Our Collaborative Partners</h1>
+            <h1 className="font-bold text-5xl mb-8 text-center pt-16 font-RobotoCondensed">Our Collaborative Partners</h1>
             <div>
                 <Swiper
                     slidesPerView={4}

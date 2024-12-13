@@ -19,7 +19,7 @@ const Location = () => {
 
             <div className="absolute inset-0 bg-black opacity-65"></div>
             <div className="relative z-10  font-RobotoCondensed">
-                <h1 className="font-bold text-5xl text-center py-8 text-white  font-RobotoCondensed">Our Location / FAQ</h1>
+                <h1 className="font-bold text-5xl text-center py-8 text-white  font-RobotoCondensed">Our Location / <span className="text-[#fe3f00]">FAQ</span></h1>
                 <div className="grid grid-cols-2 gap-8 items-center max-w-screen-lg mx-auto">
                     <div>
                         <Map height={300} defaultCenter={[23.815777805337525, 90.41691067949965]} defaultZoom={11}>

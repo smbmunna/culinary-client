@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
-
+import FooterClassCard from "./FooterClassCard";
 
 
 const Footer = () => {
@@ -12,6 +12,7 @@ const Footer = () => {
             .then(res => res.json())
             .then(data => setCourses(data))
     }, [])
+    const first3Courses= courses.slice(0,3); 
     return (
         <footer className="relative mt-16" style={{
             backgroundImage: "url(" + "https://i.ibb.co.com/NF6TD07/Timer-Section-background.png" + ")",
@@ -21,48 +22,52 @@ const Footer = () => {
 
         }}>
             <div className="absolute inset-0 bg-black opacity-70"></div>
-            <div className="footer text-white p-10 relative max-w-screen-lg mx-auto grid grid-cols-4 gap-40 items-center" >
-                <div>
-                    <img src="https://i.ibb.co.com/L8DNcxJ/Logo-2.png" alt="logo" className="w-24" />
-                    <p className="w-56 mb-4">Our Cooking School features a long and proud history of more than 100 years. Founded at the end of the XIXth century.</p>
-
-                </div>
-                <div className="w-52">
-                    <div className="flex items-center gap-2">
-                        <div>
-                            <FaMapMarkerAlt />
-                        </div>
-                        <div>
-                            <p>House 35 Road 11, Sector 04, Uttara, Dhaka</p>
-                        </div>
-                    </div>
+            <div className="footer text-white p-10 relative max-w-screen-lg mx-auto  gap-40 items-center" >
+                <div className="grid">
                     <div>
-                        <div className="flex items-center gap-2 mb-2">
-                            <div>
-                                <FaPhone />
-                            </div>
-                            <div>
-                                <p>+880-1739104635</p>
-                            </div>
-                        </div>
+                        <img src="https://i.ibb.co.com/L8DNcxJ/Logo-2.png" alt="logo" className="w-24" />
+                        <p className="w-56 mb-4">Our Cooking School features a long and proud history of more than 100 years. Founded at the end of the XIXth century.</p>
+
+                    </div>
+                    {/* contacts info */}
+                    <div className="w-52">
                         <div className="flex items-center gap-2">
                             <div>
-                                <MdEmail />
+                                <FaMapMarkerAlt />
                             </div>
                             <div>
-                                <p>smbmunna@gmail.com</p>
+                                <p>House 35 Road 11, Sector 04, Uttara, Dhaka</p>
                             </div>
                         </div>
+                        <div>
+                            <div className="flex items-center gap-2 mb-2">
+                                <div>
+                                    <FaPhone />
+                                </div>
+                                <div>
+                                    <p>+880-1739104635</p>
+                                </div>
+                            </div>
+                            <div className="flex items-center gap-2">
+                                <div>
+                                    <MdEmail />
+                                </div>
+                                <div>
+                                    <p>smbmunna@gmail.com</p>
+                                </div>
+                            </div>
 
+                        </div>
                     </div>
+
                 </div>
+
                 <div>
                     <h6 className="footer-title">Our Courses</h6>
                     {
-                        courses.map(course => <a className="link link-hover" key={course.id}>{course.title}</a>)
+                        first3Courses.map(course => <FooterClassCard key={course.id} cls={course} />)
                     }
                 </div>
-
                 <nav>
                     <h6 className="footer-title">Explore</h6>
                     <a className="link link-hover">About us</a>
