@@ -24,7 +24,7 @@ const Banner = () => {
                         <div className="hero-overlay bg-opacity-20"></div>
                         <div className="hero-content text-neutral-content text-center relative z-20">
                             <div className="">
-                                <h1 className="mt-20 text-8xl font-bold">PASSION <span className='italic'>for</span> FOOD, CAREER <span className='italic'>for</span> LIFE</h1>
+                                <h1 className="mt-20 text-4xl md:text-8xl font-bold">PASSION <span className='italic'>for</span> FOOD, CAREER <span className='italic'>for</span> LIFE</h1>
 
                                 {/* <TimerComponent heading1=""/> */}
                             </div>
