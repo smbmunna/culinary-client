@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import ClassCard from "../ClassCard/ClassCard";
 
-import testBg from '../../../assets/Backgrounds/test bg.png'; 
 
 const PopularClasses = () => {
     const [classes, setClasses] = useState([]);
@@ -11,7 +10,7 @@ const PopularClasses = () => {
             .then(data => setClasses(data))
     }, []);
     return (
-        <div className="grid justify-center mb-16 font-RobotoCondensed " >
+        <div className="grid justify-center mb-16 font-RobotoCondensed" >
             <h1 className="font-bold text-5xl mb-8 text-center mt-16 font-RobotoCondensed">Popular Classes</h1>
             <div className="grid grid-cols-3 gap-8">
                 {

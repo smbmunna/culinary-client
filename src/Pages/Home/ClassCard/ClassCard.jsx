@@ -2,7 +2,7 @@
 const ClassCard = ({ cls }) => {
     const { title, price, description, fee, image } = cls;
     return (
-        <div className="bg-base-100">
+        <div className="bg-base-100 px-4 py-4">
             <figure>
                 <img
                     src={image}

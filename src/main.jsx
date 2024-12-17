@@ -9,7 +9,7 @@ import { router } from './Routes/Routes.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div>
+    <div  className="bg-gray-200">
       <RouterProvider router={router} />
     </div>
   </StrictMode>,
