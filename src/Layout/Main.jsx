@@ -10,7 +10,7 @@ const Main = () => {
             <Navbar />
             <Banner />
             <div  className='mx-auto'>
-                {/* <Outlet /> */}
+                <Outlet />
             </div>
             {/* <Footer/> */}
         </div>
