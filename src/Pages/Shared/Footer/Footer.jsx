@@ -12,7 +12,7 @@ const Footer = () => {
             .then(res => res.json())
             .then(data => setCourses(data))
     }, [])
-    const first3Courses= courses.slice(0,3); 
+    const first3Courses = courses.slice(0, 3);
     return (
         <footer className="relative mt-16" style={{
             backgroundImage: "url(" + "https://i.ibb.co.com/NF6TD07/Timer-Section-background.png" + ")",
@@ -22,20 +22,21 @@ const Footer = () => {
 
         }}>
             <div className="absolute inset-0 bg-black opacity-70"></div>
-            <div className="footer text-white p-10 relative max-w-screen-lg mx-auto  gap-40 items-center" >
-                <div className="grid">
+            <div className="grid grid-cols-3 text-white p-10 relative max-w-screen-lg mx-auto  gap-32 items-center" >
+                {/* Column 1 */}
+                <div className="">
                     <div>
-                        <img src="https://i.ibb.co.com/L8DNcxJ/Logo-2.png" alt="logo" className="w-24" />
+                        <img src="https://i.ibb.co.com/L8DNcxJ/Logo-2.png" alt="logo" className="w-28" />
                         <p className="w-56 mb-4">Our Cooking School features a long and proud history of more than 100 years. Founded at the end of the XIXth century.</p>
 
                     </div>
                     {/* contacts info */}
-                    <div className="w-52">
-                        <div className="flex items-center gap-2">
+                    <div className="w-80">
+                        <div className="flex items-center gap-2  mb-2">
                             <div>
                                 <FaMapMarkerAlt />
                             </div>
-                            <div>
+                            <div className="">
                                 <p>House 35 Road 11, Sector 04, Uttara, Dhaka</p>
                             </div>
                         </div>
@@ -61,25 +62,27 @@ const Footer = () => {
                     </div>
 
                 </div>
-
+                {/* Column 2 */}
                 <div>
-                    <h6 className="footer-title">Our Courses</h6>
-                    {
-                        first3Courses.map(course => <FooterClassCard key={course.id} cls={course} />)
-                    }
+                    <h6 className="text-lg font-semibold text-white">Popular Courses</h6>
+                    <div>
+                        {
+                            first3Courses.map(course => <FooterClassCard key={course.id} cls={course} />)
+                        }
+                    </div>
                 </div>
-                <nav>
-                    <h6 className="footer-title">Explore</h6>
-                    <a className="link link-hover">About us</a>
-                    <a className="link link-hover">Contact</a>
-                    <a className="link link-hover">Jobs</a>
-                </nav>
-            </div>
-            <div className="footer footer-center bg-black text-white p-4">
-                <aside>
-                    <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
-                    <nav>
-                        <div className="grid grid-flow-col gap-4">
+                {/* Column 3 */}
+                <div>
+                    <nav className="grid grid-cols-1 mb-8">
+                        <h6 className="text-lg font-semibold text-white mb-2">Explore</h6>
+                        <a className="link link-hover">About us</a>
+                        <a className="link link-hover">Contact</a>
+                        <a className="link link-hover">Jobs</a>
+                    </nav>
+                    <nav className=" mb-8">
+
+                        <h6 className="text-lg font-semibold text-white mb-2">Find Us On</h6>
+                        <div className="grid grid-flow-col gap-4  mb-4">
                             <a>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -115,6 +118,20 @@ const Footer = () => {
                             </a>
                         </div>
                     </nav>
+
+                    <div>
+                        <h6 className="text-lg font-semibold text-white mb-2">Send Us Email</h6>
+                        <div className="join">
+                            <input className="input input-bordered join-item" placeholder="Your Message" />
+                            <button className="btn bg-[#fe3f00] ">Send Mail</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="footer footer-center bg-black text-white p-4">
+                <aside>
+                    <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+
                 </aside>
             </div>
         </footer>
