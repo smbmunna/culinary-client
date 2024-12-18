@@ -21,7 +21,7 @@ const Home = () => {
             <div className=" max-w-screen-lg mx-auto " >
                 <OurTeam />
             </div>
-            {/* <Location /> */}
+            <Location />
             {/* <Partners /> */}
         </div>
     );
