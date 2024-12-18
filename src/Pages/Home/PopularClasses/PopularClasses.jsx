@@ -12,7 +12,7 @@ const PopularClasses = () => {
     return (
         <div className="grid justify-center mb-16 font-RobotoCondensed" >
             <h1 className="font-bold text-5xl mb-8 text-center mt-16 font-RobotoCondensed">Popular Classes</h1>
-            <div className="grid grid-cols-3 gap-8">
+            <div className="md:grid grid-cols-3 gap-8">
                 {
                     classes.map(cls => <ClassCard cls={cls} key={cls.id} />)
                 }

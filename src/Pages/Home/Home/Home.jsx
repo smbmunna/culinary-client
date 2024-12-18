@@ -15,7 +15,7 @@ const Home = () => {
             <AboutLeader />
             {/* <PromoVideo /> */}
             <div className=" max-w-screen-lg mx-auto">
-                {/* <PopularClasses /> */}
+                <PopularClasses />
             </div>
             {/* <NextClass /> */}
             <div className=" max-w-screen-lg mx-auto " >
