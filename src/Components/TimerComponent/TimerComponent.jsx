@@ -9,7 +9,7 @@ const daySeconds = 86400;
 const timerProps = {
     isPlaying: true,
     size: 120,
-    strokeWidth: 6
+    strokeWidth: 10
 };
 
 const renderTime = (dimension, time) => {
@@ -28,7 +28,7 @@ const getTimeHours = (time) => ((time % daySeconds) / hourSeconds) | 0;
 const getTimeDays = (time) => (time / daySeconds) | 0;
 
 
-const TimerComponent = ({heading1}) => {
+const TimerComponent = ({ heading1 }) => {
     const stratTime = Date.now() / 1000; // use UNIX timestamp in seconds
     const endTime = stratTime + 243248; // use UNIX timestamp in seconds
 
@@ -38,24 +38,26 @@ const TimerComponent = ({heading1}) => {
     return (
         <div>
             <div className="relative">
-                <h1 className="font-bold text-5xl mb-8 text-center">{heading1}</h1>
+                <h1 className="font-bold text-5xl mb-8 text-center font-RobotoCondensed">{heading1}</h1>
                 <div className="py-8">
                     <div className="font-bold text-3xl mb-8 text-center">Our Next Batch Starts In...</div>
-                    <div className="timer-wrapper">
-                        <CountdownCircleTimer
-                            {...timerProps}
-                            //colors="#7E2E84"
-                            colors="white"
-                            duration={daysDuration}
-                            initialRemainingTime={remainingTime}
+                    <div className="md:flex justify-center gap-4 grid grid-cols-2 px-20 md:px-0">
+                        {/* <div className="w-12 h-20 md:w-30 md:h-30"> */}
+                            <CountdownCircleTimer
+                                {...timerProps}                                
+                                //colors="#7E2E84"                                
+                                colors="#fe3f00"
+                                duration={daysDuration}
+                                initialRemainingTime={remainingTime}
+                            >
+                                {({ elapsedTime, color }) => (
+                                    <span style={{ color }}>
+                                        {renderTime("days", getTimeDays(daysDuration - elapsedTime))}
+                                    </span>
+                                )}
+                            </CountdownCircleTimer>
+                        {/* </div> */}
 
-                        >
-                            {({ elapsedTime, color }) => (
-                                <span style={{ color }}>
-                                    {renderTime("days", getTimeDays(daysDuration - elapsedTime))}
-                                </span>
-                            )}
-                        </CountdownCircleTimer>
                         <CountdownCircleTimer
                             {...timerProps}
                             //colors="#D14081"
@@ -91,7 +93,7 @@ const TimerComponent = ({heading1}) => {
                         <CountdownCircleTimer
                             {...timerProps}
                             //colors="#218380"
-                            colors="white"
+                            colors="#fe3f00"
                             duration={minuteSeconds}
                             initialRemainingTime={remainingTime % minuteSeconds}
                             onComplete={(totalElapsedTime) => ({

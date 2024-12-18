@@ -6,7 +6,7 @@ import TimerComponent from "../../../Components/TimerComponent/TimerComponent";
 const NextClass = () => {
 
     return (
-        <div className="text-white relative py-20" style={{
+        <div className="text-white relative py-20 font-RobotoCondensed" style={{
             backgroundImage: "url(" + "https://i.ibb.co.com/NF6TD07/Timer-Section-background.png" + ")",
             backgroundPosition: 'center',
             backgroundSize: 'cover',
@@ -15,7 +15,7 @@ const NextClass = () => {
         }}>
             <div className="absolute inset-0 bg-black opacity-40"></div>
             
-            <TimerComponent heading1="Want to be a Chef?"/>
+            <TimerComponent  heading1="Want to be a Chef?"/>
         </div>
     );
 

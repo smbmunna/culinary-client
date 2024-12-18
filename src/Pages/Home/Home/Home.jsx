@@ -17,7 +17,7 @@ const Home = () => {
             <div className=" max-w-screen-lg mx-auto">
                 <PopularClasses />
             </div>
-            {/* <NextClass /> */}
+            <NextClass />
             <div className=" max-w-screen-lg mx-auto " >
                 {/* <OurTeam /> */}
             </div>
