@@ -31,15 +31,15 @@ const OurTeam = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <div className="card grid grid-cols-2 bg-base-100 shadow-xl ">
-                        <figure>
+                    <div className="card md:grid grid-cols-2 bg-base-100 shadow-xl ">
+                        <div className='w-80 mx-auto md:w-full md:p-4'>
                             <img
                                 src="https://i.ibb.co.com/ynCXkWy/chef3.jpg"
                                 alt="Album" />
-                        </figure>
+                        </div>
                         <div className="card-body ">
-                            <h2 className="font-bold text-5xl mb-8 text-center pt-16 font-RobotoCondensed">John Doe</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio harum non incidunt vitae dolorum rerum earum omnis temporibus tenetur deleniti at, accusamus iure placeat nostrum atque culpa nihil quas quod.</p>
+                            <h2 className="font-bold text-3xl md:text-5xl md:mb-8 text-center md:pt-16 font-RobotoCondensed">John Doe</h2>
+                            <p className='text-gray-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio harum non incidunt vitae dolorum rerum earum omnis temporibus tenetur deleniti at, accusamus iure placeat nostrum atque culpa nihil quas quod.</p>
                             <div className="card-actions justify-end">
 
                             </div>
@@ -47,15 +47,15 @@ const OurTeam = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="card grid grid-cols-2  bg-base-100 shadow-xl">
-                        <figure>
+                    <div className="card md:grid grid-cols-2  bg-base-100 shadow-xl">
+                        <div className='w-80 mx-auto md:w-full md:p-4'>
                             <img
                                 src="https://i.ibb.co.com/5Mg99YY/chef2.jpg"
                                 alt="Album" />
-                        </figure>
+                        </div>
                         <div className="card-body">
-                            <h2 className="font-bold text-5xl mb-8 text-center pt-16">Emma Jones</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio harum non incidunt vitae dolorum rerum earum omnis temporibus tenetur deleniti at, accusamus iure placeat nostrum atque culpa nihil quas quod.</p>
+                        <h2 className="font-bold text-3xl md:text-5xl md:mb-8 text-center md:pt-16 font-RobotoCondensed">Emma Jones</h2>
+                            <p className='text-gray-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio harum non incidunt vitae dolorum rerum earum omnis temporibus tenetur deleniti at, accusamus iure placeat nostrum atque culpa nihil quas quod.</p>
                             <div className="card-actions justify-end">
 
                             </div>
@@ -63,15 +63,15 @@ const OurTeam = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="card grid grid-cols-2 bg-base-100 shadow-xl">
-                        <figure>
+                    <div className="card md:grid grid-cols-2 bg-base-100 shadow-xl">
+                    <div className='w-80 mx-auto md:w-full md:p-4'>
                             <img
                                 src="https://i.ibb.co.com/0t3nV5x/chef1.jpg"
                                 alt="Album" />
-                        </figure>
+                        </div>
                         <div className="card-body">
-                            <h2 className="font-bold text-5xl mb-8 text-center pt-16">Henry Potter</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio harum non incidunt vitae dolorum rerum earum omnis temporibus tenetur deleniti at, accusamus iure placeat nostrum atque culpa nihil quas quod.</p>
+                        <h2 className="font-bold text-3xl md:text-5xl md:mb-8 text-center md:pt-16 font-RobotoCondensed">Mark Henry</h2>
+                            <p className='text-gray-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio harum non incidunt vitae dolorum rerum earum omnis temporibus tenetur deleniti at, accusamus iure placeat nostrum atque culpa nihil quas quod.</p>
                             <div className="card-actions justify-end">
 
                             </div>

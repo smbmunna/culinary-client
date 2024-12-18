@@ -19,7 +19,7 @@ const Home = () => {
             </div>
             <NextClass />
             <div className=" max-w-screen-lg mx-auto " >
-                {/* <OurTeam /> */}
+                <OurTeam />
             </div>
             {/* <Location /> */}
             {/* <Partners /> */}
