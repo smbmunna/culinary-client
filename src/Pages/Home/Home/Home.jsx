@@ -12,7 +12,7 @@ const Home = () => {
     return (
         <div >
             <Welcome />
-            {/* <AboutLeader /> */}
+            <AboutLeader />
             {/* <PromoVideo /> */}
             <div className=" max-w-screen-lg mx-auto">
                 {/* <PopularClasses /> */}
