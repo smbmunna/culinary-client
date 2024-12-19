@@ -3,7 +3,8 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import FooterClassCard from "./FooterClassCard";
-import { div } from "framer-motion/client";
+import { FaHeart } from "react-icons/fa";
+
 
 
 const Footer = () => {
@@ -134,8 +135,11 @@ const Footer = () => {
             </footer>
             {/* copyright */}
             <div className="footer footer-center bg-black text-white p-4">
-                <aside>
-                    <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+                <aside className="flex">
+                    {/* <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p> */}
+                    <p>Made with </p>
+                    <FaHeart className="text-red-500"/>
+                    <p> by <a href="https://smbmunna-portfolio.web.app/" className="font-semibold underline">Mahmud Munna</a></p>
 
                 </aside>
             </div>
