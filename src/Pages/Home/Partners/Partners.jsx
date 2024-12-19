@@ -29,12 +29,26 @@ const Partners = () => {
 
     return (
         <div>
-            <h1 className="font-bold text-5xl mb-8 text-center pt-16 font-RobotoCondensed">Our Collaborative Partners</h1>
+            <h1 className="font-bold text-3xl md:text-5xl mb-8 text-center pt-16 font-RobotoCondensed">Our Collaborative Partners</h1>
             <div>
                 <Swiper
-                    slidesPerView={4}
+                    //slidesPerView={4}
                     centeredSlides={true}
-                    spaceBetween={250}
+                    //spaceBetween={100}
+                    breakpoints={{
+                        320: {
+                            slidesPerView: 3, 
+                            spaceBetween: 10
+                        },
+                        640: {
+                            slidesPerView: 2,
+                            spaceBetween: 40, // Space for medium screens
+                        },
+                        1024: {
+                            slidesPerView: 4,
+                            spaceBetween: 100, // Default space for larger screens
+                        },
+                    }}
                     grabCursor={true}
                     pagination={{
                         clickable: true,
@@ -48,6 +62,7 @@ const Partners = () => {
                 >
                     {
                         partners.map(partner => <SwiperSlide key={partner.id}><PartnerCard key={partner.id} image={partner.image} /></SwiperSlide>)
+                        
                     }
                 </Swiper>
             </div>

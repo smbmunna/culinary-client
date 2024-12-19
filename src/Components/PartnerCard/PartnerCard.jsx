@@ -1,15 +1,13 @@
 
 
-const PartnerCard = ({image}) => {
+const PartnerCard = ({ image }) => {
     return (
-        <div>
-            <div className="w-52 flex items-center justify-center h-52 card shadow-xl my-4">
-                <figure>
-                    <img
-                        src={image}
-                        alt="partners logo"
-                        className="rounded-xl" />
-                </figure>
+        <div className=" md:my-4 h-32 w-52 md:h-52 md:w-64 grid items-center">
+            <div className="">
+                <img
+                    src={image}
+                    alt="partners logo"
+                    className="" />
             </div>
         </div>
     );
