@@ -12,7 +12,7 @@ const Main = () => {
             <div  className='mx-auto'>
                 <Outlet />
             </div>
-            {/* <Footer/> */}
+            <Footer/>
         </div>
     );
 };

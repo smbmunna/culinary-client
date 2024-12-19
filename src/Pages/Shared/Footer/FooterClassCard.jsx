@@ -13,7 +13,7 @@ const FooterClassCard = ({ cls }) => {
                 </div>
                 <div className="w-52">
                     <h2 className="text-white">{title}</h2>
-                    <div className="flex gap-2 my-2">
+                    <div className="flex gap-2 my-2 items-center">
                         <FaCalendarDays />
                         <p>{time}</p>
                     </div>
