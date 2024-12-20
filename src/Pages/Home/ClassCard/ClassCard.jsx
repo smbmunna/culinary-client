@@ -1,7 +1,8 @@
 import { FaCalendarAlt, FaMoneyBillAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const ClassCard = ({ cls }) => {
-    const { title, price, description, fee, image, time } = cls;
+    const { title, price, description, fee, image, time, id } = cls;
     return (
         <div className="bg-base-100 px-16 md:px-4 py-4">
             <div className="">
@@ -26,7 +27,9 @@ const ClassCard = ({ cls }) => {
                 <h2 className="card-title mb-2">{title}</h2>
                 <p className="text-gray-600">{description}</p>
                 <div className="mt-2">
-                    <button className="bg-[#fe3f00] text-white px-8 py-2 text-lg hover:bg-black" >Learn More</button>
+                    <Link to={`/course/${id}`}>
+                        <button className="bg-[#fe3f00] text-white px-8 py-2 text-lg hover:bg-black" >Learn More</button>
+                    </Link>
                 </div>
             </div>
         </div>

@@ -28,7 +28,7 @@ const Partners = () => {
 
 
     return (
-        <div>
+        <div className=''>
             <h1 className="font-bold text-3xl md:text-5xl mb-8 text-center pt-16 font-RobotoCondensed">Our Collaborative Partners</h1>
             <div>
                 <Swiper

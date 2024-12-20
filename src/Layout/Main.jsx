@@ -6,9 +6,9 @@ import Banner from "../Pages/Shared/Banner/Banner";
 
 const Main = () => {
     return (
-        <div>
+        <div className="">
             <Navbar />
-            <Banner />
+            {/* <Banner /> */}
             <div  className='mx-auto'>
                 <Outlet />
             </div>

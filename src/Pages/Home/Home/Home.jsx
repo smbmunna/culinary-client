@@ -1,3 +1,4 @@
+import Banner from "../../Shared/Banner/Banner";
 import AboutLeader from "../AboutLeader/AboutLeader";
 import Location from "../Location/Location";
 import NextClass from "../NextClass/NextClass";
@@ -10,7 +11,8 @@ import Welcome from "../Welcome/Welcome";
 
 const Home = () => {
     return (
-        <div >
+        <div>
+            <Banner/>
             <Welcome />
             <AboutLeader />
             {/* <PromoVideo /> */}
