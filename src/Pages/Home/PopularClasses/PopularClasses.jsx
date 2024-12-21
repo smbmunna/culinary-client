@@ -9,6 +9,7 @@ const PopularClasses = () => {
             .then(res => res.json())
             .then(data => setClasses(data))
     }, []);
+    //console.log(classes); 
     return (
         <div className="grid justify-center mb-16 font-RobotoCondensed" >
             <h1 className="font-bold text-5xl mb-8 text-center mt-16 font-RobotoCondensed">Popular Classes</h1>
