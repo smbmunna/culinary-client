@@ -1,0 +1,51 @@
+[
+    {
+        "id": "T001",
+        "name": "Alice Johnson",
+        "position": "Coordinator",
+        "image": "https://i.ibb.co.com/5Mg99YY/chef2.jpg",
+        "description": "Alice is an experienced coordinator with expertise in event management and team collaboration.",
+        "facebookId": "alice.johnson",
+        "instagramId": "alice_insta",
+        "twitterId": "alice_tweets"
+    },
+    {
+        "id": "T002",
+        "name": "Bob Smith",
+        "position": "Coordinator",
+        "image": "https://i.ibb.co.com/ynCXkWy/chef3.jpg",
+        "description": "Bob brings extensive experience in logistics and operations to the coordination team.",
+        "facebookId": "bob.smith",
+        "instagramId": "bobby_123",
+        "twitterId": "bob_smith"
+    },
+    {
+        "id": "T003",
+        "name": "Cathy Lee",
+        "position": "Coordinator",
+        "image": "cathy.jpg",
+        "description": "Cathy is known for her attention to detail and exceptional organizational skills.",
+        "facebookId": "cathy.lee",
+        "instagramId": "cathy_cooks",
+        "twitterId": "cathy_l"
+    },
+    {
+        "id": "T004",
+        "name": "David Brown",
+        "position": "Coordinator",
+        "image": "https://i.ibb.co.com/0t3nV5x/chef1.jpg",
+        "description": "David excels at communication and ensuring seamless coordination across teams.",
+        "facebookId": "david.brown",
+        "instagramId": "david_travels",
+        "twitterId": "david_b"
+    },
+    {
+        "name": "Ella Martinez",
+        "position": "Coordinator",
+        "image": "ella.jpg",
+        "description": "Ella specializes in project coordination and thrives under challenging deadlines.",
+        "facebookId": "ella.martinez",
+        "instagramId": "ella_m",
+        "twitterId": "ella_mtz"
+    }
+]

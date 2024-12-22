@@ -15,9 +15,10 @@ const CourseDetail = () => {
 
 
     return (
-        <div className="min-h-screen relative">
-            <div className="grid gap-4 absolute top-20 px-4">
+        <div className="">
+            <div className="grid gap-4  top-20 px-4">
                 <h1 className="text-5xl">{title}</h1>
+                <img src={image} alt="" />
                 <p className="text-gray-500">{description}</p>
                 <p className="text-gray-500">{fee}</p>
                 <p className="text-gray-500">{time}</p>
