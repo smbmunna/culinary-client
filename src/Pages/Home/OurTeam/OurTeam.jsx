@@ -29,14 +29,14 @@ const OurTeam = () => {
                 spaceBetween={30}
                 centeredSlides={true}
                 autoplay={{
-                    delay: 2500,
+                    delay: 2500000,
                     disableOnInteraction: false,
                 }}
                 modules={[Autoplay]}
                 className="mySwiper"
             >
                 {
-                    data.map(teacher=><SwiperSlide key={teacher.id}><TeacherCard key={data.id} teacher={teacher}/></SwiperSlide>)
+                    data.map(teacher=><SwiperSlide key={teacher.id}><TeacherCard key={teacher.id} teacher={teacher}/></SwiperSlide>)
                 }
 
             </Swiper>

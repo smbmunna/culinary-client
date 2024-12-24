@@ -12,7 +12,7 @@
     {
         "id": "T002",
         "name": "Bob Smith",
-        "position": "Coordinator",
+        "position": "Instructor",
         "image": "https://i.ibb.co.com/ynCXkWy/chef3.jpg",
         "description": "Bob brings extensive experience in logistics and operations to the coordination team.",
         "facebookId": "bob.smith",
@@ -32,7 +32,7 @@
     {
         "id": "T004",
         "name": "David Brown",
-        "position": "Coordinator",
+        "position": "Founder",
         "image": "https://i.ibb.co.com/0t3nV5x/chef1.jpg",
         "description": "David excels at communication and ensuring seamless coordination across teams.",
         "facebookId": "david.brown",
@@ -40,8 +40,9 @@
         "twitterId": "david_b"
     },
     {
+        "id": "T005",
         "name": "Ella Martinez",
-        "position": "Coordinator",
+        "position": "Baking Instructor",
         "image": "ella.jpg",
         "description": "Ella specializes in project coordination and thrives under challenging deadlines.",
         "facebookId": "ella.martinez",
