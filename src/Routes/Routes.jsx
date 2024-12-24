@@ -5,6 +5,7 @@ import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home/Home";
 import CourseDetail from "../Pages/CourseDetail/CourseDetail";
 import TeacherDetail from "../Pages/TeacherDetail/TeacherDetail";
+import ContactUs from "../Pages/ContactUs/ContactUs";
   
 
   export const router = createBrowserRouter([
@@ -23,6 +24,10 @@ import TeacherDetail from "../Pages/TeacherDetail/TeacherDetail";
         {
           path:'/instructor/:id',
           element:<TeacherDetail/>
+        },
+        {
+          path:'/contactUs',
+          element:<ContactUs/>
         }       
       ]
     },

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -5,7 +6,7 @@ const Navbar = () => {
         <li><a>Item 1</a></li>
         <li>
             <details>
-                <summary>Parent</summary>
+                <Link to='/contactUs'>Contact Us</Link>
                 <ul className="p-2">
                     <li><a>Submenu 1</a></li>
                     <li><a>Submenu 2</a></li>
