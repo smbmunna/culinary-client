@@ -4,49 +4,54 @@
         "name": "Alice Johnson",
         "position": "Coordinator",
         "image": "https://i.ibb.co.com/5Mg99YY/chef2.jpg",
-        "description": "Alice is an experienced coordinator with expertise in event management and team collaboration.",
+        "description": "Alice is an experienced coordinator with expertise in event management and team collaboration.Alice is an experienced coordinator with expertise in event management and team collaboration.",
         "facebookId": "alice.johnson",
         "instagramId": "alice_insta",
-        "twitterId": "alice_tweets"
+        "twitterId": "alice_tweets",
+        "email": "alice@citmail.com"
     },
     {
         "id": "T002",
         "name": "Bob Smith",
         "position": "Instructor",
         "image": "https://i.ibb.co.com/ynCXkWy/chef3.jpg",
-        "description": "Bob brings extensive experience in logistics and operations to the coordination team.",
+        "description": "Bob brings extensive experience in logistics and operations to the coordination team.Bob brings extensive experience in logistics and operations to the coordination team.",
         "facebookId": "bob.smith",
         "instagramId": "bobby_123",
-        "twitterId": "bob_smith"
+        "twitterId": "bob_smith",
+        "email": "bob_smith@citmail.com"
     },
     {
         "id": "T003",
         "name": "Cathy Lee",
         "position": "Coordinator",
         "image": "cathy.jpg",
-        "description": "Cathy is known for her attention to detail and exceptional organizational skills.",
+        "description": "Cathy is known for her attention to detail and exceptional organizational skills.Cathy is known for her attention to detail and exceptional organizational skills.",
         "facebookId": "cathy.lee",
         "instagramId": "cathy_cooks",
-        "twitterId": "cathy_l"
+        "twitterId": "cathy_l",
+        "email": "cathy_l@citmail.com"
     },
     {
         "id": "T004",
         "name": "David Brown",
         "position": "Founder",
         "image": "https://i.ibb.co.com/0t3nV5x/chef1.jpg",
-        "description": "David excels at communication and ensuring seamless coordination across teams.",
+        "description": "David excels at communication and ensuring seamless coordination across teams.David excels at communication and ensuring seamless coordination across teams.",
         "facebookId": "david.brown",
         "instagramId": "david_travels",
-        "twitterId": "david_b"
+        "twitterId": "david_b",
+        "email": "david_b@citmail.com"
     },
     {
         "id": "T005",
         "name": "Ella Martinez",
         "position": "Baking Instructor",
         "image": "ella.jpg",
-        "description": "Ella specializes in project coordination and thrives under challenging deadlines.",
+        "description": "Ella specializes in project coordination and thrives under challenging deadlines.Ella specializes in project coordination and thrives under challenging deadlines.Ella specializes in project coordination and thrives under challenging deadlines.",
         "facebookId": "ella.martinez",
         "instagramId": "ella_m",
-        "twitterId": "ella_mtz"
+        "twitterId": "ella_mtz",
+        "email": "ella_m@citmail.com"
     }
 ]

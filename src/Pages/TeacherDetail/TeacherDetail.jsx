@@ -9,17 +9,21 @@ const TeacherDetail = () => {
         return <div>Loading...</div>
     }
     const teacher = data.filter(t => t.id == id);
-    console.log(teacher);
-    const { name, position, image, description, facebookId, instagramId, twitterId } = teacher[0];
-    console.log(name);
+    const { name, position, image, description, facebookId, instagramId, twitterId, email } = teacher[0];
     return (
-        <div>
-            <h1 className="text-3xl">Teacher detail page</h1>
-            <div className="grid gap-4  top-20 px-4">
-                <h1 className="text-5xl">{name}</h1>
-                <img src={image} alt="" />
-                <p className="text-gray-500">{description}</p>
-                <p className="text-gray-500">{position}</p>
+        <div className="max-w-screen-lg mx-auto px-8 md:px-0">
+            <div className="pt-20 grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <h2 className="text-5xl  text-gray-700 font-bold font-RobotoCondensed align-left">{name}</h2>
+                    <p className="text-gray-500 font-bold">{position}</p>
+                    <p className="text-gray-500 font-bold mb-8"><span className="font-bold text-black">Email: </span>{email}</p>
+                    <h2 className="text-2xl  text-gray-700 font-bold font-RobotoCondensed align-left">Brief Info:</h2>
+                    <p className="text-gray-500">{description}</p>
+                </div>
+
+                <div className="md:py-8 md:py-8">
+                    <img src={image} alt="" />
+                </div>
             </div>
         </div>
     );

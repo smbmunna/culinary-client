@@ -1,5 +1,5 @@
 
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import useFetch from "../../Hooks/useFetch";
 
 const CourseDetail = () => {
@@ -23,14 +23,16 @@ const CourseDetail = () => {
                 <p className="text-gray-500 py-2">{description}</p>
                 <p className="text-gray-500 font-bold"><span className="font-bold text-black">Fees: </span>{fee}</p>
                 <p className="text-gray-500  font-semibold"><span className="font-bold text-black">Duration: </span>{duration}</p>
-                <p className="text-gray-500  font-semibold"><span className="font-bold text-black">Availability: </span>{availability}</p>                
-                <p className="text-gray-500 font-semibold"><span className="font-bold text-black">Location: </span>{location}</p>                
+                <p className="text-gray-500  font-semibold"><span className="font-bold text-black">Availability: </span>{availability}</p>
+                <p className="text-gray-500 font-semibold"><span className="font-bold text-black">Location: </span>{location}</p>
             </div>
             {/* sidebar */}
-            <div className="sticky">
+            <div className="mt-4 md:mt-0">
                 <h1 className="text-5xl  text-gray-700 font-bold font-RobotoCondensed">Want to be a Chef?</h1>
                 <img className="px-8" src="https://i.ibb.co.com/ynCXkWy/chef3.jpg" alt="" />
-                <button className="bg-[#fe3f00] text-white px-8 py-2 text-lg hover:bg-black mt-2 w-4/3 grid mx-auto" >Contact Us</button>
+                
+                    <button className="bg-[#fe3f00] text-white px-8 py-2 text-lg hover:bg-black btn mx-auto mt-2 w-4/3 grid mx-auto">Contact Us</button>
+                
             </div>
         </div>
     );
