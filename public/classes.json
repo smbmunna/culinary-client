@@ -1,51 +1,70 @@
 [
-    {
-      "id": "CLS-0001",
-      "title": "Pasta Making",
-      "description": "Learn how to make authentic Italian pasta from scratch in this hands-on class. Discover the secrets to mixing, kneading, and shaping the perfect dough. Create delicious pasta dishes that you can replicate at home for family and friends.",
-      "fee": "BDT 2000",
-      "time": "30 Mon, 4:00 PM",
-      "image": "https://i.ibb.co.com/d2L3rj7/6.png"
-    },
-    {
-      "id": "CLS-0002",
-      "title": "Bread Baking",
-      "description": "Master the art of bread baking with our expert instructors. Explore techniques for making soft, fluffy bread as well as rustic, artisan loaves. Learn about the science behind yeast and fermentation for consistent results every time.",
-      "fee": "BDT 1800",
-      "time": "31 Tue, 10:00 AM",
-      "image": "https://i.ibb.co.com/PGWKRMT/5.png"
-    },
-    {
-      "id": "CLS-0003",
-      "title": "Cake Decoration",
-      "description": "Transform ordinary cakes into works of art in this fun and interactive class. Learn how to create intricate designs using fondant, buttercream, and edible decorations. Perfect for beginners and those looking to enhance their decorating skills.",
-      "fee": "BDT 2500",
-      "time": "1 Wed, 2:00 PM",
-      "image": "https://i.ibb.co.com/wdLwQvr/4.png"
-    },
-    {
-      "id": "CLS-0004",
-      "title": "Coffee Brewing",
-      "description": "Discover the secrets of brewing the perfect cup of coffee, whether you love espresso, French press, or pour-over. This class covers coffee bean selection, grinding, and brewing techniques. Impress your guests with your new barista skills!",
-      "fee": "BDT 1500",
-      "time": "2 Thu, 9:00 AM",
-      "image": "https://i.ibb.co.com/rtXMyNq/3.png"
-    },
-    {
-      "id": "CLS-0005",
-      "title": "Chocolate Making",
-      "description": "Dive into the sweet world of chocolate making and create your own treats from scratch. This class covers tempering, molding, and filling chocolates for a professional finish. Ideal for chocolate lovers and those looking to gift their creations.",
-      "fee": "BDT 2200",
-      "time": "3 Fri, 11:00 AM",
-      "image": "https://i.ibb.co.com/DQHWqq3/2.png"
-    },
-    {
-      "id": "CLS-0006",
-      "title": "Pastry Basics",
-      "description": "Learn the essentials of making light and flaky pastries in this foundational class. From dough preparation to baking, you'll gain the skills to create croissants, puff pastries, and more. Elevate your dessert game with professional techniques.",
-      "fee": "BDT 2000",
-      "time": "4 Sat, 3:00 PM",
-      "image": "https://i.ibb.co.com/rmwc8tG/1.png"
-    }
-  ]
-  
+  {
+    "id": "CLS-0001",
+    "title": "Pasta Making",
+    "description": "Learn how to make authentic Italian pasta from scratch in this hands-on class. Discover the secrets to mixing, kneading, and shaping the perfect dough. Create delicious pasta dishes that you can replicate at home for family and friends.",
+    "fee": "BDT 2000",
+    "time": "30 Mon, 4:00 PM",
+    "image": "https://i.ibb.co.com/d2L3rj7/6.png",
+    "duration": "7 Days",
+    "availability": "Tuesdays, Wednesdays, Fridays and Sundays",
+    "location": "Culinary Institute Dhaka",
+    "notes": "From dough preparation to baking, you'll gain the skills to create croissants, puff pastries, and more. Elevate your dessert game with professional techniques.From dough preparation to baking, you'll gain the skills to create croissants, puff pastries, and more. Elevate your dessert game with professional techniques."
+  },
+  {
+    "id": "CLS-0002",
+    "title": "Bread Baking",
+    "description": "Master the art of bread baking with our expert instructors. Explore techniques for making soft, fluffy bread as well as rustic, artisan loaves. Learn about the science behind yeast and fermentation for consistent results every time.",
+    "fee": "BDT 1800",
+    "time": "31 Tue, 10:00 AM",
+    "image": "https://i.ibb.co.com/PGWKRMT/5.png",
+    "duration": "15 Days",
+    "availability": "Tuesdays, Wednesdays, Fridays and Sundays",
+    "location": "Culinary Institute Dhaka",
+    "notes": "From dough preparation to baking, you'll gain the skills to create croissants, puff pastries, and more. Elevate your dessert game with professional techniques.From dough preparation to baking, you'll gain the skills to create croissants, puff pastries, and more. Elevate your dessert game with professional techniques."
+  },
+  {
+    "id": "CLS-0003",
+    "title": "Cake Decoration",
+    "description": "Transform ordinary cakes into works of art in this fun and interactive class. Learn how to create intricate designs using fondant, buttercream, and edible decorations. Perfect for beginners and those looking to enhance their decorating skills.",
+    "fee": "BDT 2500",
+    "time": "1 Wed, 2:00 PM",
+    "image": "https://i.ibb.co.com/wdLwQvr/4.png",
+    "duration": "3 Days",
+    "availability": "Tuesdays, Wednesdays, Fridays and Sundays",
+    "location": "Culinary Institute Dhaka",
+    "notes": "From dough preparation to baking, you'll gain the skills to create croissants, puff pastries, and more. Elevate your dessert game with professional techniques.From dough preparation to baking, you'll gain the skills to create croissants, puff pastries, and more. Elevate your dessert game with professional techniques."
+  },
+  {
+    "id": "CLS-0004",
+    "title": "Coffee Brewing",
+    "description": "Discover the secrets of brewing the perfect cup of coffee, whether you love espresso, French press, or pour-over. This class covers coffee bean selection, grinding, and brewing techniques. Impress your guests with your new barista skills!",
+    "fee": "BDT 1500",
+    "time": "2 Thu, 9:00 AM",
+    "image": "https://i.ibb.co.com/rtXMyNq/3.png",
+    "duration": "7 Days",
+    "availability": "Tuesdays, Wednesdays, Fridays and Sundays",
+    "location": "Culinary Institute Dhaka",
+    "notes": "From dough preparation to baking, you'll gain the skills to create croissants, puff pastries, and more. Elevate your dessert game with professional techniques.From dough preparation to baking, you'll gain the skills to create croissants, puff pastries, and more. Elevate your dessert game with professional techniques."
+  },
+  {
+    "id": "CLS-0005",
+    "title": "Chocolate Making",
+    "description": "Dive into the sweet world of chocolate making and create your own treats from scratch. This class covers tempering, molding, and filling chocolates for a professional finish. Ideal for chocolate lovers and those looking to gift their creations.",
+    "fee": "BDT 2200",
+    "time": "3 Fri, 11:00 AM",
+    "image": "https://i.ibb.co.com/DQHWqq3/2.png"
+  },
+  {
+    "id": "CLS-0006",
+    "title": "Pastry Basics",
+    "description": "Learn the essentials of making light and flaky pastries in this foundational class. From dough preparation to baking, you'll gain the skills to create croissants, puff pastries, and more. Elevate your dessert game with professional techniques.",
+    "fee": "BDT 2000",
+    "time": "4 Sat, 3:00 PM",
+    "image": "https://i.ibb.co.com/rmwc8tG/1.png",
+    "duration": "7 Days",
+    "availability": "Tuesdays, Wednesdays, Fridays and Sundays",
+    "location": "Culinary Institute Dhaka",
+    "notes": "From dough preparation to baking, you'll gain the skills to create croissants, puff pastries, and more. Elevate your dessert game with professional techniques.From dough preparation to baking, you'll gain the skills to create croissants, puff pastries, and more. Elevate your dessert game with professional techniques."
+  }
+]
