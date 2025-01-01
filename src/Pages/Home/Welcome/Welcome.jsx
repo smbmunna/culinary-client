@@ -16,7 +16,7 @@ const Welcome = () => {
                         <FaHashtag className="text-[40px] md:text-[80px] text-white" />
                         <RiNumber1 className="text-[40px] md:text-[80px] text-white"  />
                     </div>
-                    <h3 className="text-lg font-bold ">Ranked No.1 in the Culinary Industry</h3>
+                    <h3 className="text-lg font-bold mt-4">Ranked No.1 in the Culinary Industry</h3>
                 </div>
                 <div className="text-center grid justify-items-center p-8">
                     <PiStudentThin className="text-[60px] md:text-[100px] text-white"  />
