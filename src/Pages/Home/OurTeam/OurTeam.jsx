@@ -23,8 +23,8 @@ const OurTeam = () => {
         return <div className='text-2xl text-red-400'>Loading...</div>
     }
     return (
-        <div className='mb-16' >
-            <h1 className="font-bold text-5xl mb-8 text-center pt-16 font-RobotoCondensed">Learn From the Best</h1>
+        <div className='mb-16'  id='instructors'>
+            <h1 className="font-bold text-5xl mb-8 text-center pt-16 font-RobotoCondensed" >Learn From the Best</h1>
             <Swiper
                 spaceBetween={30}
                 centeredSlides={true}

@@ -5,7 +5,6 @@ import NextClass from "../NextClass/NextClass";
 import OurTeam from "../OurTeam/OurTeam";
 import Partners from "../Partners/Partners";
 import PopularClasses from "../PopularClasses/PopularClasses";
-import PromoVideo from "../PromoVideo/PromoVideo";
 import Welcome from "../Welcome/Welcome";
 
 

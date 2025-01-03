@@ -7,6 +7,7 @@ import FAQ from "../../../Components/FAQ/FAQ";
 const Location = () => {
     return (
         <div
+            id="location"
             className="py-16 relative"
             style={{
                 backgroundImage: "url(" + "https://i.ibb.co.com/rtYTDMc/banner-wo-text-2.jpg" + ")",
